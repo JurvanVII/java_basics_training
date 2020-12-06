@@ -32,5 +32,17 @@ public abstract class Car {
         this.seatsNumber = seatsNumber;
         this.engine = engine;
     }
+    //do zad 34
+ //ppm generate to string
+    @Override
+    public String toString() {
+        return "{" +
+                "producer='" + producer + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", seatsNumber=" + seatsNumber +
+                ", engine=" + engine.toString() +
+                '}';
+    }
 }
 
