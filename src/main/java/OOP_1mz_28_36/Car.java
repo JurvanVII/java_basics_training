@@ -25,7 +25,7 @@ public abstract class Car {
     }
     //tworze konsturkotr ze wszystkimi arugmentami
 
-    public Car (String producer, String model, String ) {
+    public Car (String producer, String model, String color, Integer seatsNumber, Engine engine) {
         this.producer = producer;
         this.model = model;
         this.color = color;
